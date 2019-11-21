@@ -9,8 +9,8 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    // Generates a random number between 20 and 1, Inclusive
-    int randomNumber = (int)((Math.random() * ((20 - 1) + 1))+1);
+    // Variable for the randomNumber
+    int randomNumber;
 
 
     public void onClick (View view) {
@@ -44,5 +44,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        // Generates a random number between 20 and 1, Inclusive
+        randomNumber = (int)((Math.random() * ((20 - 1) + 1))+1)
     }
 }
