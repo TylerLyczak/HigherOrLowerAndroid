@@ -46,6 +46,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Generates a random number between 20 and 1, Inclusive
-        randomNumber = (int)((Math.random() * ((20 - 1) + 1))+1)
+        randomNumber = (int)((Math.random() * ((20 - 1) + 1))+1);
     }
 }
